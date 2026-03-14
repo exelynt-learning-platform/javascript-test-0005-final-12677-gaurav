@@ -1,2 +1,14 @@
-# javascript-test-0005-final-12677-gaurav
-Final Project Assignment - This repository contains the complete final project code and documentation.
+let totalRows = 5;
+let currentNum = 1;
+
+for (let i = 1; i <= totalRows; i++) {
+
+  let row = "";
+
+  for (let j = 1; j <= i; j++) {
+    row += currentNum + " ";
+    currentNum++;
+  }
+
+  console.log(row.trim());
+}
